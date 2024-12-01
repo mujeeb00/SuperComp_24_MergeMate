@@ -2,7 +2,7 @@ import { UserDetails } from "../components/user-details";
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 import { Footer } from "../components/footer";
 import { UserStack } from "../components/user-stacks";
-import Link from "next/link"; // Import Link from Next.js
+import Link from "next/link"; 
 
 export default async function DashboardPage() {
   return (
