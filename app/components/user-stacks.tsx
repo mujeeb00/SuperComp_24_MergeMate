@@ -50,7 +50,7 @@ export function UserStack() {
       } else {
         console.log("User already exists in the database.");
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error checking or saving user data:", error.response?.data || error.message);
     }
   };
