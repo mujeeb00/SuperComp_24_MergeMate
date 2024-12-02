@@ -1,10 +1,10 @@
 import { PanInfo, motion } from "framer-motion";
 import { useState } from "react";
-import { CardProps } from "types";
+// import { CardProps } from "types";
 import { Card as ShadCard } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const SwipeCard: React.FC<CardProps> = ({ card, removeCard, active }) => {
+const SwipeCard: React.FC<any> = ({ card, removeCard, active }) => {
   const [leaveX, setLeaveX] = useState(0);
   const [leaveY, setLeaveY] = useState(0);
 
